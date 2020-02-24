@@ -1,0 +1,64 @@
+#include <stdio.h>
+int main(void)
+{
+//第二章复习题代码部分
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	printf("+                  第二章复习题代码部分                     +\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	printf("\n");
+//第4题
+	int s;
+	s = 56;
+	printf("No.4\n");
+	printf("\n");
+	printf("There are %d weeks in a year.\n", s);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第5题
+	printf("\n");
+	printf("No.5\n");
+	printf("\n");
+	printf("Baa Baa Black Sheep.");
+	printf("Have you any wool?\n");
+	printf("Begone\nO creature of lard!\n");
+	printf("What?\nNo/nfish?\n");
+	int num;
+	num = 2;
+	printf("%d + %d = %d\n", num, num, num + num);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第7题
+	printf("\n");
+	printf("No.7\n");
+	printf("\n");
+	int word = 3020;
+	int line = 350;
+	printf("There are %d words and %d lines.\n", word , line);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第8题
+	printf("\n");
+	printf("No.8\n");
+	printf("\n");
+	int a, b;
+	a = 5;
+	b = 2;
+	b = a;
+	a = b;
+	printf("a = %d , b = %d",a,b);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第9题
+	printf("\n");
+	printf("No.9\n");
+	printf("\n");
+	int x, y;
+	x = 10;
+	y = 5;
+	y = x + y;
+	x = x * y;
+	printf("x = %d , y = %d", x, y);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
