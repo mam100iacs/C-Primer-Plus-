@@ -1,0 +1,131 @@
+#include<stdio.h>
+//第4题自定义函数开始
+void jolly(void)
+{
+	printf("For he's jolly good fellow!\n");
+}
+void deny(void)
+{
+	printf("Which nobody can deny!\n");
+}
+//第4题自定义函数结束
+
+//第5题自定义函数开始
+void br(void)
+{
+	printf("Brazil , Russia , ");
+}
+void ic(void)
+{
+	printf("India , China , ");
+}
+//第5题自定义函数结束
+
+//第7题自定义函数开始
+void smile(void)
+{
+	printf("Smile!");
+}
+//第7题自定义函数结束
+
+//第8题自定义函数开始
+void two(void)
+{
+	printf("two\n");
+}
+void one_three(void)
+{
+	printf("one\n");
+	two();
+	printf("three\n");
+}
+int main(void)
+{
+//第二章编程练习
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	printf("+                       第2章编程练习                                  +\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第1题
+	printf("\n");
+	printf("No.1\n");
+	printf("\n");
+	printf("No Jig\n");
+	printf("No\n");
+	printf("Jig\n");
+	printf("No Jig\n");
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第2题
+	printf("\n");
+	printf("No.2\n");
+	printf("\n");
+	printf("Name:No Jig\n");
+	printf("Address:No.3 DR PNDS\n");
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第3题
+	printf("\n");
+	printf("No.3\n");
+	printf("\n");
+	int age;
+	int days;
+	printf("Please int your age:");
+	scanf_s("%d", &age);
+	printf("\n");
+	days = age * 365;
+	printf("Your age is %d,the days you have been passed are %d .\n", age, days);
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第4题
+	printf("\n");
+	printf("No.4\n");
+	printf("\n");
+	jolly();
+	jolly();
+	jolly();
+	deny();
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第5题
+	printf("\n");
+	printf("No.5\n");
+	printf("\n");
+	br(), ic();
+	printf("\n");
+	ic();
+	printf("\n");
+	br();
+	printf("\n");
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第6题
+	printf("\n");
+	printf("No.6\n");
+	printf("\n");
+	int toes = 10;
+	printf("toes = %d , toes * 2 = %d , toes * toes = %d \n", toes, toes * 2, toes * toes);
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第7题
+	printf("\n");
+	printf("No.7\n");
+	printf("\n");
+	smile(), smile(), smile();
+	printf("\n");
+	smile(),smile();
+	printf("\n");
+	smile();
+	printf("\n");
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第8题
+	printf("\n");
+	printf("No.8\n");
+	printf("\n");
+	printf("starting now:\n");
+	one_three();
+	printf("done!\n");
+	printf("\n");
+	printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	return 0;
+}
