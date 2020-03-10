@@ -1,0 +1,102 @@
+#include <stdio.h>
+int main(void)
+{
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+	printf("+                           第3章编程练习                             +\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+//第2题
+	printf("\n");
+	printf("No.2\n");
+	printf("\n");
+	int number1;
+	printf("Please int an ASCII(0~127) :");
+	scanf_s("%d", &number1);
+	printf("ASCII Number:%d , ASCII:%c",number1,number1);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+//第3题
+	printf("\n");
+	printf("No.3\n");
+	printf("\n");
+	int number2 = 7;
+	printf("%c",number2);
+	printf("Startled by the sudden sound , Sally shouted,\n");
+	printf("“By the Great Pumpkin,what was that ! ”\n");
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+//第4题
+	printf("\n");
+	printf("No.4\n");
+	printf("\n");
+	float a;
+	printf("Please int a float number:");
+	scanf_s("%f",&a);
+	printf("fixed-point notation:%f\n", a);
+	printf("exponential notation:%e\n", a);
+	printf("p notation:%a\n", a);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+//第5题
+	printf("\n");
+	printf("No.5\n");
+	printf("\n");
+	double seconds = 3.157e7;
+	int age;
+	double axs;
+	printf("Please int your age:");
+	scanf_s("%d",&age);
+	axs = age * seconds;
+	printf("The seconds you have been passed:%lf",axs);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+//第6题
+	printf("\n");
+	printf("No.6\n");
+	printf("\n");
+	double number3, total;
+	double waterquality = 3.0e-23;
+	printf("Please int the number of the quart:");
+	scanf_s("%lf",&number3);
+	total = number3 * 950 / waterquality;
+	printf("The quality of the water is :%lf\n",total);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+//第7题
+	printf("\n");
+	printf("No.7\n");
+	printf("\n");
+	int height;
+	float cm;
+	printf("Please int your height:");
+	scanf_s("%d",&height);
+	cm = height * 2.54;
+	printf("Your height in centemeter:%f\n",cm);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+//第8题
+	printf("\n");
+	printf("No.8\n");
+	printf("\n");
+	int cups;
+	int ounce;
+	float pint;
+	printf("Please int the cups:");
+	scanf_s("%d",&cups);
+	pint = cups * 0.5;
+	ounce = cups * 8;
+	printf("pint=%f\n", pint);
+	printf("ounce=%d\n", ounce);
+	printf("soupspoon=%d\n", ounce * 2);
+	printf("teaspoon=%d\n", ounce * 2 * 3);
+	printf("\n");
+	printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	printf("\n");
+	return 0;
+}
